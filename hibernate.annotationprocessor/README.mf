@@ -1,0 +1,9 @@
+This project contains a java annotation processor which does the following:
+1) it scans  the java files to find the ones that are annotated with the javax.persistence.Entity annotation.
+2) It collects the fully qualified name of the annotated java classes.
+3) It generates a java file which can be used in OSGI (Equinox) environments.
+
+TODO: usage
+
+TODO: project import with maven 
+ 
